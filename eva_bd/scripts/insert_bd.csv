@@ -1,0 +1,21 @@
+id_alternativa,descripcion,es_correcta,porcentaje,pregunta_id_pregunta,alumno_rut
+1, es concurrente ,si,50,1,11111111-1
+2,basado en aspectos,no,0,1,11111111-1
+3,orientado a objetos ,si,50,1,11111111-1
+4,nula reutilizacion de código,no,0,1,11111111-1
+5,Concretación,no,0,2,11111111-1
+6,Encapsulamiento ,si,50,2,11111111-1
+7,Polimorfismo ,si,50,2,11111111-1
+8,Descendencia,no,0,2,11111111-1
+9,Si,no,0,3,11111111-1
+10,No,no,0,3,11111111-1
+11,No 100%,si,100,3,11111111-1
+12,A medias,no,0,3,11111111-1
+13,"Aumenta la usabilidad y el mantenimiento del código, ",si,50,4,11111111-1
+14,"Mejora la modularidad al evitar que los objetos interactúen entre sí, de forma no deseada. ",si,50,4,11111111-1
+15,El estado interno de cada objeto no puede ser protegido,no,0,4,11111111-1
+16,Solo B y C,no,0,4,11111111-1
+17,"Una clase puede extender varias interfaces, pero solo puede implementar una clase abstracta. ",no,0,5,11111111-1
+18,Todos los métodos en una interfaz son abstractos y una clase abstracta puede contener métodos abstractos y no abstractos.,si,100,5,11111111-1
+19,Las clases abstractas no pueden implementar interfaces sin siquiera proporcionar la implementación de métodos de interfaz. ,no,0,5,11111111-1
+20,Las variables declaradas en una interfaz Java son por defecto Protected ,no,0,5,11111111-1

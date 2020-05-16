@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F3576AF3-3908-7EDB-BB2A-54CFCE72E82C" name="test">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 22:48:00 UTC</createdTime>
+<ownerDesignName>test_modelos_er</ownerDesignName>
+<engineerTo>
+<item key="6CBAEC8A-5CCB-BCAF-22B5-9EE7CEA88DEE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_test" id="1AF53522-E6BF-409D-930D-1F9033F70350">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 22:48:05 UTC</createdTime>
+<ownerDesignName>test_modelos_er</ownerDesignName>
+<engineerTo>
+<item key="6CBAEC8A-5CCB-BCAF-22B5-9EE7CEA88DEE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre_test" id="EE7DEA0F-CE2E-C1EF-85C5-27D7EF266C23">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 22:48:24 UTC</createdTime>
+<ownerDesignName>test_modelos_er</ownerDesignName>
+<engineerTo>
+<item key="6CBAEC8A-5CCB-BCAF-22B5-9EE7CEA88DEE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descripcion_test" id="46085721-1F40-14D7-2C66-B3F75A19F4A0">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 22:48:52 UTC</createdTime>
+<ownerDesignName>test_modelos_er</ownerDesignName>
+<engineerTo>
+<item key="6CBAEC8A-5CCB-BCAF-22B5-9EE7CEA88DEE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="unidad" id="957173FF-3DAC-7C4C-CF09-73B163FF0592">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 22:49:38 UTC</createdTime>
+<ownerDesignName>test_modelos_er</ownerDesignName>
+<engineerTo>
+<item key="6CBAEC8A-5CCB-BCAF-22B5-9EE7CEA88DEE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="autor" id="94A607E1-E86C-DC68-1C46-F96C260A9574">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-05-15 14:59:45 UTC</createdTime>
+<ownerDesignName>test_modelos_er</ownerDesignName>
+<engineerTo>
+<item key="6CBAEC8A-5CCB-BCAF-22B5-9EE7CEA88DEE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_creacion" id="58D10A23-BC92-CE5E-1C1D-A7FCEA9949E8">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 22:49:57 UTC</createdTime>
+<ownerDesignName>test_modelos_er</ownerDesignName>
+<engineerTo>
+<item key="6CBAEC8A-5CCB-BCAF-22B5-9EE7CEA88DEE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="ECB1D9C8-27A5-B5BF-C707-B768FAA306FA" name="test PK">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 22:48:23 UTC</createdTime>
+<ownerDesignName>test_modelos_er</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="6CBAEC8A-5CCB-BCAF-22B5-9EE7CEA88DEE" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1AF53522-E6BF-409D-930D-1F9033F70350</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

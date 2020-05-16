@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2860A63E-DC34-A83C-952F-D4B3666C7A1C" name="test">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-05-15 16:06:16 UTC</createdTime>
+<generatorID>F3576AF3-3908-7EDB-BB2A-54CFCE72E82C</generatorID>
+<ownerDesignName>test_modelos_er</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_test" id="834DCC2F-A9CA-7F51-4BD4-C009FBFF8089">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-05-15 16:06:16 UTC</createdTime>
+<generatorID>1AF53522-E6BF-409D-930D-1F9033F70350</generatorID>
+<ownerDesignName>test_modelos_er</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_test" id="3E35B2FB-1F9E-F8A2-7D06-752BF5316BF2">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-05-15 16:06:16 UTC</createdTime>
+<generatorID>EE7DEA0F-CE2E-C1EF-85C5-27D7EF266C23</generatorID>
+<ownerDesignName>test_modelos_er</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descripcion_test" id="1BA018D0-A014-413C-0AE8-83C322CA2295">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-05-15 16:06:16 UTC</createdTime>
+<generatorID>46085721-1F40-14D7-2C66-B3F75A19F4A0</generatorID>
+<ownerDesignName>test_modelos_er</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="unidad" id="F5B7407F-71BF-573C-3A8E-32178F31525D">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-05-15 16:06:16 UTC</createdTime>
+<generatorID>957173FF-3DAC-7C4C-CF09-73B163FF0592</generatorID>
+<ownerDesignName>test_modelos_er</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="autor" id="2CA91598-D275-5AB2-FD1F-1FF115DE2797">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-05-15 16:06:16 UTC</createdTime>
+<generatorID>94A607E1-E86C-DC68-1C46-F96C260A9574</generatorID>
+<ownerDesignName>test_modelos_er</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_creacion" id="D2511F56-6D35-F028-5398-DB75454EEB83">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-05-15 16:06:16 UTC</createdTime>
+<generatorID>58D10A23-BC92-CE5E-1C1D-A7FCEA9949E8</generatorID>
+<ownerDesignName>test_modelos_er</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A11786BD-0734-E364-9D35-CF3BE811137F" name="test_PK">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-05-15 16:06:16 UTC</createdTime>
+<generatorID>ECB1D9C8-27A5-B5BF-C707-B768FAA306FA</generatorID>
+<ownerDesignName>test_modelos_er</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="834DCC2F-A9CA-7F51-4BD4-C009FBFF8089"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
